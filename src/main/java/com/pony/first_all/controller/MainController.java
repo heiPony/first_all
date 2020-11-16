@@ -5,7 +5,6 @@ public class MainController {
         System.out.println(get());
 
     }
-
     public static  int get() {
         int i=0;
         try {
@@ -13,7 +12,6 @@ public class MainController {
             int b=0/0;
             return i;
         } catch (Exception e) {
-            i=2;
         } finally {
             i=3;
             System.out.println(i);
